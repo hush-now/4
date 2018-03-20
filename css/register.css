@@ -1,0 +1,105 @@
+body {
+    background-image: url(../img/reg.jpg);
+}
+p{
+	font-size: 1.5rem;
+	color: #FFFFFF;
+}
+h1{
+	color: #FFFFFF;
+}]
+
+.con_reg {
+    width: 100%;
+}
+.left_reg {
+    width: 49.9%;
+    height: 630px;
+    float: left;
+    background-color: rgba(255, 255, 255,0);
+}
+#welcome_reg{
+	width: 80%;
+}
+.right_reg {
+    width: 49.9%;
+    height: 630px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+#reg_Board {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 40px auto;
+    border-radius: 8px;
+}
+#name_reg, #key_reg, #phone_reg, #keyCheck {
+    height: 35px;
+    line-height: 35px;
+    width: 80%;
+    position: relative;
+    margin-top: 15px;
+    background: none;
+    border: solid 1px gainsboro;
+    border-radius: 2px;
+}
+#regButton {
+    width: 80%;
+    height: 35px;
+    position: relative;
+    margin-top: 15px;
+    background-color: rgb(92, 172, 238);
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(92, 172, 238);
+    border-radius: 2px;
+}
+
+
+
+/*login*/
+#loginBoard{
+	width: 300px;
+	height: 380px;
+	margin: 80px auto;
+	background-color: rgba(255,255,255,0.3);	
+	border-radius: 8px;
+}
+#loginKeyIn,#loginNameIn{
+	width: 70%;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 15px;
+	background: none;
+	border: solid 1px #FFFFFF;
+	border-radius: 2px;	
+}
+#loginNameIn{
+	margin-top: 5px;
+}
+#loginButton{
+	width: 70%;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 25px;
+	border: solid 1px #5CACEE;
+	border-radius: 2px;
+	background-color: #5CACEE;
+	color: white;
+}
+a{
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: #1874CD;
+	
+}
+#other>a:first-child{
+	border-right: solid 1px #FFFFFF;
+	margin-right: 8px;
+}
+
+
+
+
+
